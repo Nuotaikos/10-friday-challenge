@@ -1,0 +1,36 @@
+.sidebar {
+    display: block;
+    width: 100px; 
+    height: 100vh;
+    position: fixed;
+    transition: widths 2s;
+}
+.sidebar:hover {
+    width: 195px;
+}
+.logo {
+    width: 68px;
+    height: 34px;
+    padding-top: 52px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.logo > line {
+    padding-left: 18px;
+    padding-top: 110px;
+}
+
+.list {
+
+}
+footer {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 11px;
+    display: block;
+    line-height: 13.41px;
+    padding: 16, 0;
+}

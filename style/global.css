@@ -1,29 +1,28 @@
 :root {
-    --lightblue: #EBEEF5;
-    --whitepink: #F7F6FF;
-    --lightgrey: #C4C4C4;
+    --maincolor: #EBEEF5;
+    --navcolor: #F7F6FF;
+    --linecolor: #C4C4C4;
   }
   body,
   body * {
-      margin: 0;
-      padding: 0;
-      vertical-align: top;
-      box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
   }
   
   body {
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-
-  body { 
-    background-color: var(--lightblue); 
+    font-family: Montserrat;
+    background-color: var(--maincolor); 
 }
   
   nav {
-    background-color: var(--whitepink);
+    background-color: var(--navcolor);
   }
 
   footer {
-      background-color: var(--whitepink);
+      background-color: var(--maincolor);
+      color: #02577A;
+      ;
   }
   
