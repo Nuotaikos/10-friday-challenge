@@ -1,27 +1,50 @@
-.sidebar {
+.nav{
     display: block;
     width: 100px; 
     height: 100vh;
     position: fixed;
     transition: widths 2s;
 }
-.sidebar:hover {
+.nav:hover {
     width: 195px;
+    margin-left: 10px;
+}
+
+.nav:hover a {
+    width: 89px;
+    height: 57px;
+    border-radius: 25px 0px 0px 25px;
+    background-color: #fff;
+    margin-left: 11px;  
+}
+
+.active {
+    width: 195px;
+    height: 57px;
+    border-radius: 25px 0px 0px 25px;
+    background-color: #fff;
+    margin-left: 11px;
 }
 .logo {
     width: 68px;
     height: 34px;
-    padding-top: 52px;
-    padding-right: 16px;
-    padding-left: 16px;
+    margin-top: 52px;
+    margin-right: 16px;
+    margin-left: 16px;
+    border-bottom: 2px solid var(--linecolor);
+    padding-bottom: 24px;
 }
 
-.logo > line {
-    padding-left: 18px;
-    padding-top: 110px;
+.line {
+    left: 18px;
+    margin-top: 110px;
 }
 
 .list {
+    align-items: center;
+    top: 142px ;
+    padding: 20px;
+    padding-left: 11px;
 
 }
 footer {
@@ -33,4 +56,17 @@ footer {
     display: block;
     line-height: 13.41px;
     padding: 16, 0;
+}
+
+a {
+    align-items: center;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500, Medium;
+    display: none;
+}
+
+.svg {
+    height: 25px;
+    margin-left: 25px;
 }
