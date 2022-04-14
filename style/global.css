@@ -2,6 +2,8 @@
     --maincolor: #EBEEF5;
     --navcolor: #F7F6FF;
     --linecolor: #C4C4C4;
+    --iconcolor: #02577A;
+
   }
   body,
   body * {
@@ -12,7 +14,7 @@
   }
   
   body {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--maincolor); 
 }
   
@@ -21,8 +23,7 @@
   }
 
   footer {
-      background-color: var(--maincolor);
-      color: #02577A;
-      ;
+   color: var(--iconcolor);
+      
   }
   
