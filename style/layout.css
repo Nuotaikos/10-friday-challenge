@@ -3,8 +3,7 @@
   width: 100px;
   height: 100vh;
   position: fixed;
-  transition: max-width 0.4s ease-in 0s;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.155);
 }
 .nav .logo {
   width: 68px;
@@ -24,7 +23,7 @@
   margin: auto;
   border: none;
   margin-bottom: 32px;
-  transition: max-width 0.4s ease-in 0s;
+  transition: max-width 0.3s ease-in 1s;
 }
 .list {
   border-radius: 25px 0 0 25px;
@@ -91,11 +90,12 @@
   opacity: 1;
 }
 .conteiner {
-    display: inline-block;
+        display: inline-block;
   width: 1345px;
   margin-left: calc(50% - 673px);
   position: absolute;
   top: 30px;
+  opacity: 2;
 }
 .date {
   float: right;
@@ -123,7 +123,8 @@
   
 }
 .destopimg {
-    width: 100vw;
+    width: 100%;
+    height: auto;
   object-fit: cover;
 }
 .box {
