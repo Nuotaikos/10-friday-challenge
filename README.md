@@ -15,9 +15,10 @@ Design:
 ## Project features
 
 -   Github pages (multi-page)
--   HTML 
--   CSS    
--  
+-   HTML structure
+-   CSS layouts  
+
+
 
 ## Authors
 
