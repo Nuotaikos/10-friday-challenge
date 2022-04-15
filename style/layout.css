@@ -59,7 +59,13 @@
     color: var(--iconcolor);
     margin-left: 42px;
 }
-
+.a {
+    size: 16px;
+    width: 62px;
+    font-weight: 500, medium;
+    line-height: 19.5px;
+    
+}
 .img {
     position: relative;
     left: 37px;
