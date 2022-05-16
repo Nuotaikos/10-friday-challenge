@@ -151,36 +151,64 @@
   align-items: center;
 }
 
-.foooter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer {
+  color: var(--iconcolor);
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
+  padding: 11px 0;
+  margin-top: 20px;
+}
+.footer p {
+  width: 30%;
+  margin: auto;
+  text-align: center;
   border-top: 1px solid var(--iconcolor);
 }
-.footer hr {
-  border: 1px solid var(--iconcolor);
-}
-.foooter p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .container-calendar {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  width: 80%;
   margin-left: 10%;
+  padding-top: 40px;
+}
+@media (max-width: 991px) {
+  .container-calendar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-calendar {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  .container-calendar {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 80%;
+  }
 }
 .uzduotys {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  /* position: relative; */
+  gap: 40px;
+  position: relative;
 }
 .stulpelis {
-  width: 576px;
-  height: 159px;
+  /* width: 576px;
+  height: 159px; */
   background-color: white;
   border-radius: 15px;
   padding: 25px 10px 25px 42px;
@@ -188,11 +216,12 @@
   position: relative;
 }
 .calendar {
-  width: 520px;
+  /* width: 520px; */
   background-color: white;
   border-radius: 15px;
   padding: 20px;
 }
+
 .stulpelis h3 {
   font-size: 26px;
   font-weight: 700;
@@ -212,6 +241,7 @@
   left: 199px;
   top: 175px;
   border-radius: 25px;
+  border: none;
 }
 .red {
   background-color: red;
@@ -266,7 +296,6 @@
 .month .next {
   float: right;
   padding-top: 2px;
-
   left: 0%;
   right: 0%;
   top: 18.75%;
@@ -278,7 +307,7 @@
   padding: 10px 0;
   border-bottom: 1px solid #c4c4c4;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .weekdays li {
@@ -299,7 +328,7 @@
   width: 12.6%;
   text-align: center;
   margin-bottom: 5px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 29px;
   padding: 6px 0;
@@ -325,4 +354,10 @@
 }
 .plius:hover {
   cursor: pointer;
+}
+@media (max-width: 575px) {
+  .plius {
+    float: right;
+    margin-right: 10px;
+  }
 }
