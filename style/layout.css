@@ -165,10 +165,14 @@
   justify-content: center;
   align-items: center;
 }
+.container-calendar {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
 .uzduotys {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   gap: 20px;
   /* position: relative; */
 }
@@ -267,7 +271,6 @@
 .weekdays {
   margin: 0;
   padding: 10px 0;
-  width: 470px;
   border-bottom: 1px solid #c4c4c4;
   font-weight: 500;
   font-size: 24px;
@@ -302,4 +305,17 @@
   border-radius: 50%;
   background: #02577a;
   color: white !important;
+}
+.plius {
+  background-color: var(--iconcolor);
+  border-radius: 50%;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+.plius span {
+  font-size: 30px;
+}
+.plius:hover {
+  cursor: pointer;
 }
