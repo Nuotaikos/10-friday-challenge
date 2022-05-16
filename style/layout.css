@@ -155,6 +155,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid var(--iconcolor);
 }
 .footer hr {
   border: 1px solid var(--iconcolor);
@@ -163,4 +164,142 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.uzduotys {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* position: relative; */
+}
+.stulpelis {
+  width: 576px;
+  height: 159px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 25px 10px 25px 42px;
+  margin-right: 53px;
+}
+.calendar {
+  width: 470px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+.stulpelis h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.stulpelis p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #c4c4c4;
+}
+.line {
+  width: 188px;
+  height: 20px;
+  left: 199px;
+  top: 175px;
+  border-radius: 25px;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: #fce300;
+}
+.green {
+  background-color: #51fc00;
+}
+.dots {
+  position: absolute;
+  right: 26px;
+  top: 26px;
+  padding: 0;
+  margin: 0;
+}
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+.month .prev {
+  float: left;
+  padding-top: 2px;
+
+  left: 10%;
+  right: 10%;
+  top: 18.75%;
+  bottom: 18.75%;
+}
+
+.month .next {
+  float: right;
+  padding-top: 2px;
+
+  left: 0%;
+  right: 0%;
+  top: 18.75%;
+  bottom: 18.75%;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  width: 470px;
+  border-bottom: 1px solid #c4c4c4;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #c4c4c4;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.days li {
+  /* list-style-type: none; */
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.days li .active-day {
+  width: 52px;
+  height: 52px;
+  padding: 14px;
+  border-radius: 50%;
+  background: #02577a;
+  color: white !important;
 }
