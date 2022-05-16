@@ -188,7 +188,7 @@
   position: relative;
 }
 .calendar {
-  width: 470px;
+  width: 520px;
   background-color: white;
   border-radius: 15px;
   padding: 20px;
@@ -283,7 +283,7 @@
 
 .weekdays li {
   display: inline-block;
-  width: 13.6%;
+  width: 12.6%;
   color: #c4c4c4;
   text-align: center;
 }
@@ -296,11 +296,13 @@
 .days li {
   /* list-style-type: none; */
   display: inline-block;
-  width: 13.6%;
+  width: 12.6%;
   text-align: center;
   margin-bottom: 5px;
   font-size: 24px;
   font-weight: 700;
+  line-height: 29px;
+  padding: 6px 0;
 }
 
 .days li .active-day {
