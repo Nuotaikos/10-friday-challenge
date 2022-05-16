@@ -168,7 +168,9 @@
 .container-calendar {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  position: relative;
+  margin-left: 10%;
 }
 .uzduotys {
   display: flex;
@@ -183,6 +185,7 @@
   border-radius: 15px;
   padding: 25px 10px 25px 42px;
   margin-right: 53px;
+  position: relative;
 }
 .calendar {
   width: 470px;
@@ -201,6 +204,7 @@
   font-size: 20px;
   line-height: 24px;
   color: #c4c4c4;
+  padding-bottom: 15px;
 }
 .line {
   width: 188px;
@@ -219,6 +223,7 @@
   background-color: #51fc00;
 }
 .dots {
+  height: 10px;
   position: absolute;
   right: 26px;
   top: 26px;
